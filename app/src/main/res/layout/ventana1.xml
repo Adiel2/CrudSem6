@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="15dp"
+    android:background="#5C5B5B"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/estiloeditext"
+        android:drawableStart="@drawable/ic_buscar2"
+        android:drawableLeft="@drawable/ic_buscar2"
+        android:text="Busqueda por Codigo"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/et_cod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/estiloeditext"
+        android:drawableStart="@drawable/ic_ingresar"
+        android:drawableLeft="@drawable/ic_ingresar"
+        android:drawablePadding="5dp"
+        android:hint="lngrese el cédigo"
+        android:inputType="number"
+        android:paddingLeft="25dp" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/estiloboton"
+        android:drawableStart="@drawable/ic_buscar2"
+        android:drawableLeft="@drawable/ic_buscar2"
+        android:drawablePadding="0dp"
+        android:paddingLeft="10dp"
+        android:shadowColor="#2314A8"
+
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:text="Buscar"
+        android:textColor="#000" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/circulo1"
+            android:gravity="center_horizontal"
+            android:text="X"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
